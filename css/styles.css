@@ -1,6 +1,13 @@
 h1 { 
-    color: red;
-    font-size: 100px; 
+    color: rgba(0, 184, 160, 0.986);
+    font-family:Lucida;
+    background-color: rgba(0, 0, 0, 0.884);
+    font-size: 70px; 
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: auto;
 }
 
 h2 { 
