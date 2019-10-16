@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: rgba(196, 196, 196, 0.445);
 }
 
 h1 { 
@@ -28,10 +29,11 @@ span.School {
 }
 
 h2 { 
-    color: rgba(0, 184, 160, 0.986);
+    color: rgb(255, 183, 0);
     font-family: lucida;
     font-size: 40px;
     font-variant: small-caps;
+    background-color: grey;
 }
 
 h3 { 
