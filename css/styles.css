@@ -12,7 +12,7 @@ h1 {
     font-variant: small-caps;
 }
 img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -41,6 +41,7 @@ h3 {
     font-family: lucida;
     font-size: 30px;
     font-style: italic;
+    background-color: rgb(218, 214, 214);
     
 }
 
