@@ -1,21 +1,49 @@
+body{
+    text-align: center;
+}
+
 h1 { 
-    color: rgba(0, 184, 160, 0.986);
+    color: rgba(255, 255, 255, 0.986);
     font-family:Lucida;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: rgba(58, 58, 58, 0.884);
     font-size: 70px; 
     text-align: center;
+    font-variant: small-caps;
 }
 img {
     width: 200px;
     height: auto;
 }
 
+span.Normandie {
+    color: rgb(255, 183, 0);
+}
+
+span.Web {
+    color:rgba(0, 184, 160, 0.986);
+}
+
+span.School {
+    color: black;
+}
+
 h2 { 
-    color: red;
+    color: rgba(0, 184, 160, 0.986);
+    font-family: lucida;
+    font-size: 40px;
+    font-variant: small-caps;
 }
 
 h3 { 
-    color: red; 
+    color: rgba(0, 184, 160, 0.986); 
+    font-family: lucida;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+footer {
+    background-color:rgba(134, 134, 134, 0.884);
 }
 
 ul { 
