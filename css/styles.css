@@ -11,9 +11,28 @@ h1 {
     text-align: center;
     font-variant: small-caps;
 }
+
 img {
-    width: 250px;
+    width: 300px;
     height: auto;
+}
+
+#logoNWS {
+    width: 150px;
+    height: auto;
+}
+
+#SeineInnoImg {
+    width: 450px;
+    height: auto;
+}
+
+span.positif {
+    color : rgb(28, 180, 28);
+}
+
+span.négatif {
+    color : rgb(209, 15, 15);
 }
 
 span.Normandie {
@@ -47,8 +66,4 @@ h3 {
 
 footer {
     background-color:rgba(134, 134, 134, 0.884);
-}
-
-ul { 
-    color: red;
 }
