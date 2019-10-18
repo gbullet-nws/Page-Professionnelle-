@@ -12,20 +12,19 @@ h1 {
     font-variant: small-caps;
 }
 
-img {
-    width: 300px;
-    height: auto;
+span.Guillaume {
+    color: rgb(255, 183, 0);
 }
 
-#logoNWS {
-    width: 150px;
-    height: auto;
+span.BULLET {
+    color:rgba(0, 184, 160, 0.986);
 }
 
-#SeineInnoImg {
-    width: 450px;
-    height: auto;
-}
+.PhotoID {
+    align-items: left;
+    width: auto;
+    height : auto;
+    }
 
 span.positif {
     color : rgb(28, 180, 28);
@@ -33,18 +32,6 @@ span.positif {
 
 span.négatif {
     color : rgb(209, 15, 15);
-}
-
-span.Normandie {
-    color: rgb(255, 183, 0);
-}
-
-span.Web {
-    color:rgba(0, 184, 160, 0.986);
-}
-
-span.School {
-    color: black;
 }
 
 h2 { 
