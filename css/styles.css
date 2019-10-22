@@ -21,10 +21,15 @@ span.BULLET {
 }
 
 .PhotoID {
-    align-items: left;
     width: auto;
-    height : auto;
+    height : 300px;
     }
+
+.logoNWS { 
+    width: 300px;
+    height : auto;
+}
+
 
 span.positif {
     color : rgb(28, 180, 28);
@@ -49,6 +54,26 @@ h3 {
     font-style: italic;
     background-color: rgb(218, 214, 214);
     
+}
+
+.Facebook {
+    width: 100px;
+    height : auto;
+}
+
+.Twitter {
+    width: 100px;
+    height : auto;
+}
+
+.Instagram {
+    width: 100px;
+    height : auto;
+}
+
+.Linkedin {
+    width: 100px;
+    height : auto;
 }
 
 footer {
