@@ -12,6 +12,11 @@ h1 {
     font-variant: small-caps;
 }
 
+.Banner { 
+    width: 600px;
+    height : auto;
+}
+
 span.Guillaume {
     color: rgb(255, 183, 0);
 }
@@ -28,14 +33,6 @@ span.BULLET {
 .logoNWS { 
     width: 300px;
     height : auto;
-}
-
-span.positif {
-    color : rgb(28, 180, 28);
-}
-
-span.négatif {
-    color : rgb(209, 15, 15);
 }
 
 h2 { 
