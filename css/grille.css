@@ -1,0 +1,13 @@
+/* mise en place de la grille */
+#grille{
+    display: grid;
+    /* configuration de la grille en 3 colonnes */
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(auto, auto); 
+    grid-column-gap: 2px;
+    grid-row-gap: 1em;
+}
+
+#Grille1{
+
+}
