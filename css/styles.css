@@ -30,7 +30,6 @@ span.BULLET {
     height : auto;
 }
 
-
 span.positif {
     color : rgb(28, 180, 28);
 }
@@ -54,6 +53,11 @@ h3 {
     font-style: italic;
     background-color: rgb(218, 214, 214);
     
+}
+
+.CV {
+    width: auto;
+    height : 600px;
 }
 
 .Facebook {
