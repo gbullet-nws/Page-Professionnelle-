@@ -8,19 +8,26 @@
     <meta charset="utf-8">
     <title>Présentation Professionnelle - Guillaume BULLET</title>
     <link rel="stylesheet" href="css/styles.css"> 
-    <link rel="stylesheet" href="grille.css">
+    <link rel="stylesheet" href="grille.css/grille.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="32x32" href="img/favicon-32.png" type="image/png">
   </head>
 
 
 
   <body>
-      <div id="grille">
 
     <header>
-        <img alt= "Bannière" title= "Bannière" src= "img/bannière.jpeg" class="Banner"> </a>
+     
+    <!-- Bannière et sa grille-->
+    <div id="BannerZone">
+    <div id="BannerGrid" class="ligne1 col1"> <img alt= "Bannière" title= "Bannière" src= "img/bannière-page-perso.jpeg" class="Banner"> </div>
+    </div>
+        
     </header>
+
+    <!-- base de la grille principale-->
+    <div id="GrilleHautDePage">
 
     <!-- Photo d'Identité -->
     <div id=ZonePhotoID class="ligne1 col1"> 
@@ -28,7 +35,7 @@
         </div>
  
         <!-- Prénom et Nom -->
-        <div id=P&N class="ligne1 col2"> 
+        <div id=PetN class="ligne1 col2"> 
         <h1> <span class="Guillaume"> Guillaume </span> <span class="BULLET"> BULLET </span>  </h1>
         </div> 
  
@@ -37,6 +44,8 @@
        <p> <em> <span class="slogan"> N'arrêtons jamais d'apprendre </span> </em> </p>
        </div>
      
+      </div>
+
              <!-- Zone Présentation de la page-->
     <section>
            <article id="presentation">
@@ -100,14 +109,28 @@
      </section>
 
 
+     <!-- Bas de page-->
       <footer>
-        <p> © <strong> Guillaume BULLET </strong> </p>
-        <p> Ce site et l'ensemble des ressources associées, est publié selon les termes d'un projet mis en place dans le cadre de notre formation à la Normandie Web School. </p>
+
+        <!-- Copyright-->
+        <section> 
+          <p> © <strong> Guillaume BULLET </strong> </p>
+          <p> Ce site et l'ensemble des ressources associées, est publié selon les termes d'un projet mis en place dans le cadre de notre formation à la Normandie Web School.</p>
+        </section>
+        <!-- Crédits et citations-->
+        <section>
+          <p> <strong> Crédits : </strong> </p>
+          <ul> 
+          <li> image du favicon : https://icones8.fr/icon/11239/code-source </li>
+          <li> création du favicon : http://favicons.fr/ </li>
+          <li> bannière : https://unsplash.com/s/photos/code-source </li>
+          </ul> 
+        </section>
+
       </footer>
 
+      </div>
 
-
-       </div>
      </body>
 
 
