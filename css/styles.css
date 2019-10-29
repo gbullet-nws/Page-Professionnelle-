@@ -3,18 +3,17 @@ body{
     background-color: rgba(243, 235, 235, 0.952);
 }
 
+.Banner { 
+    width: 100%;
+    height : auto;
+}
+
 h1 { 
-    color: rgba(255, 255, 255, 0.986);
     font-family:Lucida;
     background-color: rgba(58, 58, 58, 0.884);
     font-size: 70px; 
     text-align: auto;
     font-variant: small-caps;
-}
-
-.Banner { 
-    width: 650px;
-    height : auto;
 }
 
 span.Guillaume {
@@ -27,11 +26,15 @@ span.BULLET {
 
 .PhotoID {
     width: auto;
-    height : 300px;
+    height : 250px;
     }
 
+.slogan {
+    text-align: center ;
+}
+
 .logoNWS { 
-    width: 300px;
+    width: 250px;
     height : auto;
 }
 

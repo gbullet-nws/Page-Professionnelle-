@@ -5,64 +5,84 @@
 
 
   <head>
+
     <meta charset="utf-8">
     <title>Présentation Professionnelle - Guillaume BULLET</title>
     <link rel="stylesheet" href="css/styles.css"> 
     <link rel="stylesheet" href="grille.css/grille.css">
     <!-- Favicon -->
     <link rel="icon" sizes="32x32" href="img/favicon-32.png" type="image/png">
-  </head>
 
+  </head>
 
 
   <body>
 
     <header>
      
-    <!-- Bannière et sa grille-->
-    <div id="BannerZone">
-    <div id="BannerGrid" class="ligne1 col1"> <img alt= "Bannière" title= "Bannière" src= "img/bannière-page-perso.jpeg" class="Banner"> </div>
-    </div>
+      <!-- Bannière et sa grille-->
+      <div id="BannerZone">
+        <div id="BannerGrid" class="ligne1 col1"> <img alt= "Bannière" title= "Bannière" src= "img/bannière-page-perso.jpeg" class="Banner"> </div>
+      </div>
         
     </header>
 
-    <!-- base de la grille principale-->
-    <div id="GrilleHautDePage">
 
-    <!-- Photo d'Identité -->
-    <div id=ZonePhotoID class="ligne1 col1"> 
+    <!-- base de la grille du haut-->
+     <div id="GrilleHautDePage">
+
+        <!-- Photo d'Identité -->
+        <div id="ZonePhotoID" class="ligne1 col1"> 
         <img alt="Photo d'identité" title ="Photo d'identité" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx6wBYQZqysdJYaekch9O9ks57C6oeb52yijLnM-cctTzhPjSR" class="PhotoID" > 
         </div>
  
         <!-- Prénom et Nom -->
-        <div id=PetN class="ligne1 col2"> 
+        <div id="PetN" class="ligne1 col2"> 
         <h1> <span class="Guillaume"> Guillaume </span> <span class="BULLET"> BULLET </span>  </h1>
         </div> 
  
-       <!-- Slogan-->
-       <div id=Slogan class="ligne1 col3"> 
-       <p> <em> <span class="slogan"> N'arrêtons jamais d'apprendre </span> </em> </p>
-       </div>
+        <!-- Slogan-->
+        <div id="Slogan" class="ligne1 col3"> 
+        <p> <em> <span class="slogan"> N'arrêtons jamais d'apprendre </span> </em> </p>
+        </div>
      
-      </div>
+    </div>
 
              <!-- Zone Présentation de la page-->
     <section>
-           <article id="presentation">
-             <h2> Page profesionnelle </h2>
-               <p> Cette page est une présentation professionnelle de mes compétences et attributs. </p>
-               <p> Produite dans le cadre d'un projet à la Normandie Web School. </p>
-               <!-- Lien vers NWS -->
-               <p> <a href="https://normandie-web-school.fr/home-2/?utm_expid=.zBg5o-d3TU-Ykg9nDL0NZQ.1&utm_referrer=https%3A%2F%2Fwww.google.com%2F" title="NormandieWebSchool.fr" target="_blank" > NormandieWebSchool.fr </a> </p>
-           </article>
-               <!-- Logo de la NWS -->
-               <img alt="Normandie Web School" title ="logo de la NWS" src="https://normandie-web-school.fr/wp-content/uploads/2019/01/Logo_NWS_couleurs-e1550676972229.png" class="logoNWS" >
+
+      <article id="Presentation">
+         <h2> Page profesionnelle </h2>
+         <p> Cette page est une présentation professionnelle de mes compétences et attributs. </p>
+         <p> Produite dans le cadre d'un projet à la Normandie Web School. </p>
+         <!-- Lien vers NWS -->
+         <p> <a href="https://normandie-web-school.fr/home-2/?utm_expid=.zBg5o-d3TU-Ykg9nDL0NZQ.1&utm_referrer=https%3A%2F%2Fwww.google.com%2F" title="NormandieWebSchool.fr" target="_blank" > NormandieWebSchool.fr </a> </p>
+      </article>
+
+         <!-- Logo de la NWS -->
+         <img alt="Normandie Web School" title ="logo de la NWS" src="https://normandie-web-school.fr/wp-content/uploads/2019/01/Logo_NWS_couleurs-e1550676972229.png" class="logoNWS" >
+
     </section>
 
+    <!-- Sommaire de la page -->
+    <section id="Sommaire">
+        <h2>Sommaire</h2>
+        <nav id="index">
+          <ol>
+            <li> <a href="#Presentation" title="Présentation de la page"> Présentation de la page </a> </li>
+            <li> <a href="#TextePro" title="Présentation Textuelle"> Présentation Textuelle </a> </li>
+            <li> <a href="#ImagesEtVideos" title="Productions Numériques"> Productions Numériques </a> </li>
+            <li> <a href="#ZoneCV" title="Curriculum Vitae"> Curriculum Vitae </a> </li>
+            <li> <a href="#ReseauxSociaux" title="Réseaux Sociaux"> Réseaux Sociaux </a> </li>
+          </ol>
+       </nav>
+    </section>
 
-    <section id="TextePro">
+    <!-- Zone Paragraphes -->
+    <section id="TextePro" class="textepro">
+
       <h2> Présentation Professionnelle </h2>
-        <!-- Zone Paragraphes -->
+         
           <p> Issu d’un Bac Littéraire, Spécialité Anglais, j’arrive en Fac de Droit et je trouve cette filière très intéressante et instructive, ce qui me permet de garder le cap six mois. 
               Ne voulant finalement pas travailler ni même orienter mon parcours professionnel dans cette voie, je décide de quitter la Fac et de m’inscrire en intérim pour travailler en tant que manutentionnaire en industrie.
               Mon premier intérêt pour les produits numériques fut vers mes 7 ans. Avec l’e-Mac de ma mère, celui qui ressemble à la lampe de Pixar, je fais alors mes premiers pas sur Photoshop et mes premiers jeux sur ordinateur. 
@@ -79,52 +99,73 @@
               Jusqu’à peu, j’étais surtout sur Final Cut Pro, aimant toujours le montage vidéo. Je m’inscris en Février 2019 à la Normandie Web School, afin d’en apprendre d’avantage et de pouvoir trouver un métier dans le numérique. </p>
 
           <p> J’aime remettre en question ce que l’on me dit comme ce que je crois savoir, croiser les informations est crucial, surtout dans notre monde actuel. </p>
+
     </section>
 
 
-        <!-- Zone Photo/Vidéo de présentation-->
-    <section id="Images&Videos">
-       <h2> Productions Numériques </h2>
+    <!-- Zone Photo/Vidéo de présentation-->
+    <section id="ImagesEtVideos" class="imagesetvideos">
+
+          <h2> Productions Numériques </h2>
           <p> <em> Production photo & vidéo. </em> </p>
           <p> <a href="https://www.google.fr/intl/fr/slides/about/" title="Google Slides" target="_blank" >  Google Slides </a> </p>
           <p> <a href="https://docs.google.com/presentation/d/1vi46vnQq7uY5dfwWL4zl0CgdvvqcbvgmaeizJqEWNQc/edit?usp=sharing" title="Le projet original" target="_blank" >  Notre Google Slides </a> </p>
           <p> <img alt="Poutine à Cheval" title ="Poutine à Cheval" src="img/Poutine cheval à bascule.png" class="Poutine" > </p>
+
     </section>
 
 
-        <!-- Zone CV -->
-    <section id = "ZoneCV">
+    <!-- Zone CV -->
+    <section id = "ZoneCV" class="zonecv">
+
           <h2> Curriculum Vitae </h2>
           <img alt="CV Guillaume BULLET" title ="CV de Guillaume BULLET" src="img/CV Octobre 2019.png" class="CV " >
+
     </section>
 
 
      <!-- Zone Réseaux Sociaux-->
-     <section id="Réseaux Sociaux">
+     <section id="ReseauxSociaux" class="reseauxsociaux">
+
         <h2> Réseaux Sociaux </h2>
             <a href="https://www.facebook.com" title="Facebook" target="_blank" > <img alt= "Facebook" title= "Facebook" src= "img/logo facebook 512x512.png" class="Facebook"> </a>
             <a href="https://twitter.com/?lang=fr" title="Twitter" target="_blank" > <img alt= "Twitter" title= "Twitter" src= "img/logo twitter 640x640.png" class="Twitter"> </a>
             <a href="https://www.instagram.com/?hl=fr" title="Instagram" target="_blank" > <img alt= "Instagram" title= "Instagram" src= "img/logo instagram 512x512.png" class="Instagram"> </a>
             <a href="https://www.linkedin.com" title="Linkedin" target="_blank" > <img alt= "Linkedin" title= "Linkedin" src= "img/logo linkedin 512x512.png" class="Linkedin"> </a>
-     </section>
 
+    </section>
 
-     <!-- Bas de page-->
+    <!-- Espacement à ne pas oublier de modifier héhé-->
+          
+          <hr>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+
+      <!-- Bas de page-->
       <footer>
 
         <!-- Copyright-->
         <section> 
+
           <p> © <strong> Guillaume BULLET </strong> </p>
-          <p> Ce site et l'ensemble des ressources associées, est publié selon les termes d'un projet mis en place dans le cadre de notre formation à la Normandie Web School.</p>
+          <p> Ce site et l'ensemble des ressources associées, sont publiés et mis en place dans le cadre de ma présentation professionnelle. </p>
+
         </section>
+
         <!-- Crédits et citations-->
         <section>
+
           <p> <strong> Crédits : </strong> </p>
           <ul> 
           <li> image du favicon : https://icones8.fr/icon/11239/code-source </li>
           <li> création du favicon : http://favicons.fr/ </li>
           <li> bannière : https://unsplash.com/s/photos/code-source </li>
           </ul> 
+
         </section>
 
       </footer>
