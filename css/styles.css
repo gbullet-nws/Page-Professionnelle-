@@ -27,9 +27,9 @@ span.BULLET {
 .PhotoID {
     width: auto;
     height : 250px;
-    }
+}
 
-.slogan {
+#slogan {
     text-align: center ;
 }
 
@@ -55,7 +55,7 @@ h3 {
 }
 
 .Poutine {
-    width: 600px;
+    width: 1000px;
 }
 
 .CV {
