@@ -50,7 +50,7 @@
     display: grid;
     /* configuration de la grille en 4 colonnes */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: minmax (auto); 
+    grid-auto-rows: auto; 
     grid-column-gap: 2px;
     grid-row-gap: 1px;
     border-collapse: collapse;
@@ -58,25 +58,25 @@
 /* Tuile du Texte de Présentation Profesionnelle */
 #TuileTextePro{
     grid-column: 1;
-    grid-row: 1 / 2;
+    grid-row: 1;
     border: 1px solid black;
 }
 /* Tuile des Projets Numériques */
 #TuileImagesEtVideos{
     grid-column: 2;
-    grid-row: 1 / 2;
+    grid-row: 1;
     border: 1px solid black;
 }
 /* Tuile de la Zone du CV */
 #TuileZoneCV{
     grid-column: 3; 
-    grid-row: 1 / 2;
+    grid-row: 1;
     border: 1px solid black;
 }
 /* Tuile des Réseaux Sociaux */
 #TuileReseauxSociaux{
     grid-column: 4;
-    grid-row: 1 / 2;
+    grid-row: 1 ;
     border: 1px solid black;
 }
 
