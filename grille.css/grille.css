@@ -68,7 +68,7 @@
     border: 1px solid black;
 }
 /* Tuile de la Zone du CV */
-#TuileZoneCV{
+#TuileSommaireCV{
     grid-column: 3; 
     grid-row: 1;
     border: 1px solid black;
@@ -92,7 +92,7 @@
     grid-column-gap: 2px;
     grid-row-gap: 1px;
 }
-/* Case de la Présentation Écrite */
+/* Case de la Présentation Professionnelle */
 #TuileZoneDeTexte{
     grid-column: 2;
     grid-row: 1;
