@@ -1,88 +1,205 @@
+/* BODY */
 body{
     text-align: center;
-    background-color: rgba(243, 235, 235, 0.952);
+    color:rgb(12, 12, 12);
+    background-color:rgb(216, 212, 186);
+    font-family: 'Georgia', serif;
+    margin: 10;
 }
 
-.Banner { 
-    width: 100%;
-    height : auto;
-}
-
+/* BALISES DE BASE  */
 h1 { 
-    font-family:Lucida;
-    background-color: rgba(58, 58, 58, 0.884);
-    font-size: 70px; 
+    background-color: rgb(86, 76, 42);
+    font-size: 80px; 
     text-align: auto;
     font-variant: small-caps;
+    text-align: center;
+}
+h2 { 
+    background-color: rgb(166, 157, 103);
+    color: rgb(86, 76, 42);
+    font-size: 50px;
+    font-variant: small-caps;
+    text-align: center;
+}
+h3 { 
+    background-color: rgb(166, 157, 103);
+    color: rgb(86, 76, 42);
+    font-size: 50px;
+    text-align: center;
+}
+h4 {
+    font-size: 30px;
+    color: white;
+}
+h5 {
+    font-size: 30px;
+    color: black;
+}
+p { 
+    color: black;
+    font-size: 26px;
+}
+li {
+    font-size: 20px;
+    text-decoration: none;
+}
+a {
+    color:rgb(142, 36, 24);
 }
 
-span.Guillaume {
-    color: rgb(255, 183, 0);
+
+/* _____________________________________ */ 
+
+
+/* SOMMAIRE / navigation */
+/* Tuile de l'Accueil */
+#TuileAccueil{
+    background-color:rgb(194, 191, 173);
+    font-style: bold;
+}
+/* Tuile de la Présentation */
+#TuileTextePro{
+    background-color:rgb(194, 191, 173);
+    font-style: bold;
+}
+/* Tuile des Projets Numériques */
+#TuileImagesEtVideos{
+    background-color:rgb(194, 191, 173);
+    font-style: bold;
+}
+/* Tuile de la Zone du CV */
+#TuileSommaireCV{
+    background-color:rgb(194, 191, 173);
+    font-style: bold;
+}
+.CaseSommaire {
+    font-style: bold;
 }
 
-span.BULLET {
-    color:rgba(0, 184, 160, 0.986);
-}
 
-.PhotoID {
-    width: auto;
-    height : 250px;
+/* RÉSEAUX SOCIAUX */
+#Facebook {
+    width: 100px;
+    height : auto;
 }
-
-#slogan {
-    text-align: center ;
-}
-
-.logoNWS { 
-    width: 250px;
+#Linkedin {
+    width: 100px;
     height : auto;
 }
 
-h2 { 
-    color: rgb(255, 183, 0);
-    font-family: lucida;
-    font-size: 40px;
-    font-variant: small-caps;
-    background-color: grey;
+
+/* FOOTER */
+footer {
+    background-color:rgb(189, 182, 149); 
 }
 
-h3 { 
-    color: rgba(0, 184, 160, 0.986); 
-    font-family: lucida;
+#AALC {
+    font-size: 30px; 
+    color: rgb(166, 157, 103);
+}
+#Cred {
+    font-size: 35px;
+}
+#CULDD {
+    font-size: 30px; 
+    color: rgb(166, 157, 103);
+}
+span#Guillaume {
+    color: rgb(166, 157, 103);
+}
+span#BULLET {
+    color:rgb(142, 36, 24);
+}
+
+
+/* _____________________________________ */ 
+
+
+/* ACTUALITÉS */
+#ProfilLinkedin {
+    width: 60%;
+}
+#ActucdvRecto {
+    width: 30%;
+}
+#ActucdvVerso {
+    width: 30%;
+}
+.BorderActu{
+    font-size: 35px;
+    border: 4px ridge rgb(166, 157, 103);
+}
+.LiActu {
+    font-size: 30px;
+}
+
+
+/* PRÉSENTATION */
+#TextePro {
+    width: auto;
+    height: auto;
+    border: 4px ridge rgb(166, 157, 103);
+    text-align: justify;
+    padding: 30px;
+}
+/* HEADER de la présentation */
+#Banner { 
+    display: grid;
+    grid-template-columns: 1 / -1;
+    max-width: 100%;
+    height: auto;
+}
+span.Guillaume {
+    color: rgb(216, 212, 186);
+}
+span.BULLET {
+    color:rgb(166, 157, 103);
+}
+#PhotoID {
+    max-width: 60%;
+    height : auto;
+}
+#slogan {
     font-size: 30px;
     font-style: italic;
-    background-color: rgb(218, 214, 214);
+    
 }
 
+
+/* PRODUCTIONS NUMÉRIQUES */
+#cdvRecto {
+    width: 50%;
+}
+#cdvVerso {
+    width: 50%;
+}
+#CDVrecto {
+    font-size: 35px;
+    color: rgb(86, 76, 42);
+}
+#CDVverso {
+    font-size: 35px;
+    color: rgb(86, 76, 42);
+}
+#PoutineCheval {
+    font-size: 30px;
+    color: rgb(86, 76, 42);
+}
 .Poutine {
-    width: 1000px;
+    width: 40%;
+    height: auto;
 }
 
+
+/* CURRICULUM VITAE */
 .CV {
-    width: auto;
-    height : 600px;
-}
-
-.Facebook {
-    width: 100px;
+    width: 60%;
     height : auto;
 }
 
-.Twitter {
-    width: 100px;
-    height : auto;
-}
 
-.Instagram {
-    width: 100px;
-    height : auto;
-}
-
-.Linkedin {
-    width: 100px;
-    height : auto;
-}
-
-footer {
-    background-color:rgba(134, 134, 134, 0.884);
+/* Crédits */ 
+#LiCred {
+    font-size: 15px;
 }

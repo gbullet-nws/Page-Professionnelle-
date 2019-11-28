@@ -1,16 +1,15 @@
 <!doctype html>
 
 
-<html lang="en">
+<html lang="fr">
 
 
   <head>
 
-    <!-- Police de la page -->
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-
+    <!-- UTF-8 et titre onglet -->
     <meta charset="utf-8">
-    <title>Présentation Professionnelle - Guillaume BULLET</title>
+    <title> Présentation Professionnelle - Guillaume BULLET </title>
+    <!-- Liens entre les fichiers -->
     <link rel="stylesheet" href="css/styles.css"> 
     <link rel="stylesheet" href="grille.css/grille.css">
     <!-- Favicon -->
@@ -19,202 +18,122 @@
   </head>
 
 
-
+ 
   <body>
+
+    <div id="GrilleResponsive"> 
 
     <header>
      
-      <!-- Bannière et sa grille-->
-      <div id="BannerZone">
-        <div id="BannerGrid" class="ligne1 col1"> <img alt= "Bannière" title= "Bannière" src= "img/bannière-page-perso.jpeg" class="Banner"> </div>
-      </div>
-        
+        <img alt= "Bannière" title= "Bannière" src= "img/guillaume bullet banner linkedin.jpg" id="Banner"> 
+
+      
     </header>
 
 
 
-     <!-- Base de la grille du Haut de Page-->
-     <div id="GrilleHautDePage">
-
-        <!-- Photo d'Identité -->
-        <div id="ZonePhotoID" class="ligne1 col1"> 
-        <img alt="Photo d'identité" title ="Photo d'identité" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx6wBYQZqysdJYaekch9O9ks57C6oeb52yijLnM-cctTzhPjSR" class="PhotoID" > 
-        </div>
- 
-        <!-- Prénom et Nom -->
-        <div id="PetN" class="ligne1 col2"> 
-        <h1> <span class="Guillaume"> Guillaume </span> <span class="BULLET"> BULLET </span>  </h1>
-        </div> 
- 
-        <!-- Slogan-->
-        <div id="Slogan" class="ligne1 col3"> 
-        <p> <em> <span id="slogan"> N'arrêtons jamais d'apprendre </span> </em> </p>
-        </div>
-     
-     </div>
-
-
-
  <!-- Sommaire de la page -->
- <section id="Sommaire">
-    <h2>Sommaire</h2>
+<nav id="Sommaire">
      <!-- base de la grille du SOMMAIRE -->
      <div id="GrilleDuSommaire">
+       <!-- tuile du sommaire de la présentation textuelle -->
+       <div id="TuileAccueil" class="CaseSommaire"> 
+          <p> <a href="index.html" title="Accueil"> Accueil </a> </p> 
+          </div>
         <!-- tuile du sommaire de la présentation textuelle -->
-        <div id="TuileTextePro" class="ligne1 col1"> 
-        <p> <a href="#TextePro" title="Présentation Textuelle"> Présentation Textuelle </a> </p> 
+        <div id="TuileTextePro" class="CaseSommaire"> 
+        <p> <a href="presentation.html" title="Présentation Textuelle"> Présentation </a> </p> 
         </div>
+
         <!-- tuile du sommaire des productions numériques -->
-        <div id="TuileImagesEtVideos" class="ligne1 col2"> 
-        <p> <a href="#ImagesEtVideos" title="Productions Numériques"> Productions Numériques </a> </p> 
+        <div id="TuileImagesEtVideos" class="CaseSommaire"> 
+        <p> <a href="productions.html" title="Productions Numériques"> Productions Numériques </a> </p> 
         </div>
+
         <!-- tuile du sommaire de la zone du cv -->
-        <div id="TuileSommaireCV" class="ligne1 col3"> 
-        <p> <a href="#ZoneCV" title="Curriculum Vitae"> Curriculum Vitae </a> </p> 
+        <div id="TuileSommaireCV" class="CaseSommaire"> 
+        <p> <a href="cv.html" title="Curriculum Vitae"> Curriculum Vitae </a> </p> 
         </div>
-        <!-- tuile du sommaire des réseaux sociaux -->
-        <div id="TuileReseauxSociaux" class="ligne1 col4"> 
-        <p> <a href="#ReseauxSociaux" title="Réseaux Sociaux"> Réseaux Sociaux </a> </p>
-        </div>
+
      </div>
- </section>
+    </nav>
 
 
+    <!-- tuile des actualités -->
+    <div id="TuileActu" class="ligne1et2 col2"> 
 
-  <!-- base de la grille du CENTRE -->
-  <div id="GrilleDuCentre">
+      <!-- Zone des Actualités -->
+      <section id="ZoneActu" class="actu">
 
-    <!-- tuile du sommaire de la présentation de la page -->
-    <div id="TuileZoneDeTexte" class="ligne2 col1"> 
+       <h3> Actualités </h3>
+       <div id="Actu">
 
-      <!-- Zone Paragraphes -->
-      <section id="TextePro" class="textepro">
-
-       <h2> Présentation Professionnelle </h2>
-
-          <p> Issu d’un Bac Littéraire, Spécialité Anglais, j’arrive en Fac de Droit et je trouve cette filière très intéressante et instructive, ce qui me permet de garder le cap six mois. 
-              Ne voulant finalement pas travailler ni même orienter mon parcours professionnel dans cette voie, je décide de quitter la Fac et de m’inscrire en intérim pour travailler en tant que manutentionnaire en industrie.
-              Mon premier intérêt pour les produits numériques fut vers mes 7 ans. Avec l’e-Mac de ma mère, celui qui ressemble à la lampe de Pixar, je fais alors mes premiers pas sur Photoshop et mes premiers jeux sur ordinateur. 
-              Se faisant, je décide de me tourner vers des métiers avec un rapport plus ou moins marqué à l'informatique basique. Ayant déjà pu gérer des bases de données avec FileZilla, 
-              ou faire du montage vidéo avec Sony Vegas, After Effect ou Final Cut, un BTS général avec des demandes très variables serait intéressant pour moi.  </p>
-
-          <p> En 2016, je me suis inscrit en BTS Assistant Manager, un cursus général, comportant des matières comme l’économie, le droit, le management, l’anglais, l’espagnol, ainsi que le soutien à l’action managériale, les suites bureautiques, l’accès à des ordinateurs, des demandes pouvant varier sur les tâches à accomplir, etc… 
-              De quoi mettre un premier pied dans le monde professionnel. Mes meilleures expériences durant cette formation furent lors de mes 2 stages. Le premier en 2017 à Malte, dans une agence immobilière, où j’étais considéré comme Chef de Projet des étudiants.
-              Nous avons pu travailler sur la maquette d’un site internet pour l’agence. Mon deuxième fut à Lubrizol, en tant qu’assistant de l’Assistante de Direction. 
-              En dehors de mes tâches de BTS AM, j’ai amélioré et mis en place une page intranet sur la sécurité industrielle pour les opérateurs. </p>
-
-          <p> Après avoir eu mon diplôme de BTS en 2018, je ne poursuis pas dans cette voie. L’aspect informatique étant trop linéaire et pas au centre de la formation, je m’y prends trop tard pour une réorientation et me résigne à entrer en 3ème année de Langues Étrangères Appliquées, option Commerce International. 
-              En parallèle, je me jette dans une formation sur internet. Je m’essaye au langage de programmation C, sur Open Classroom, mais n’étant pas assez “matheux” je bloque aux fonctions et aux chains. Continuant dans cette optique, j’apprends quelques notions de HTML. 
-              Jusqu’à peu, j’étais surtout sur Final Cut Pro, aimant toujours le montage vidéo. Je m’inscris en Février 2019 à la Normandie Web School, afin d’en apprendre d’avantage et de pouvoir trouver un métier dans le numérique. </p>
-
-          <p> J’aime remettre en question ce que l’on me dit comme ce que je crois savoir, croiser les informations est crucial, surtout dans notre monde actuel. </p>
-
+        <div class="borderActu">
+          <h5> <div class="LiActu"> Mise en place de mon profil Linkedin </div> </h5>
+          <a href="https://www.linkedin.com/in/guillaume-bullet-155876140/" title="Linkedin" target="_blank" > <img alt= "Linkedin" title= "Linkedin" src= "img/guillaume bullet profil linkedin.png" id="ProfilLinkedin" class="BorderActu"> </a>
         </div>
-     
-      </section>
 
+          <div class="borderActu">
+          <h5> <div class="LiActu"> Production de ma carte de visite </div> </h5>
+          <a href="productions.html" title="Productions Numériques"> <img alt="Carte de visite Recto" title ="Carte de visite Recto" src="img/guillaume bullet carte de visite .jpg" id="ActucdvRecto" class="BorderActu"> </a>
+          <a href="productions.html" title="Productions Numériques"> <img alt="Carte de visite Verso" title ="Carte de visite Verso" src="img/guillaume bullet carte de visite 2.jpg" id="ActucdvVerso" class="BorderActu"> </a>
+          </div>
 
-    <!-- Tuile des Projets Numériques -->
-    <div id="TuileZoneImagesEtVideos" class="ligne1 col1"> 
+          <div class="borderActu">
+          <h5> <div class="LiActu"> Soutenance le 29 Novembre 2019 </div> </h5>
+          <p> Cette soutenance intervient lors de ma formation à la Normandie Web School. <br>
+              Constituée de 2 parties : un oral de 5 minutes, suivi de réponses aux questions durant 5 autres. <br>
+              Je dois présenter 5 éléments, dits "livrables" dans le cadre de la completion de mon projet personnel.</p>
+          </div>
 
-      <!-- Zone des Projets Numériques -->
-      <section id="ImagesEtVideos" class="imagesetvideos">
-
-          <h2> Productions Numériques </h2>
-
-          <p> <em> Production photo & vidéo. </em> </p>
-          <p> <a href="https://www.google.fr/intl/fr/slides/about/" title="Google Slides" target="_blank" >  Google Slides </a> </p>
-          <p> <a href="https://docs.google.com/presentation/d/1vi46vnQq7uY5dfwWL4zl0CgdvvqcbvgmaeizJqEWNQc/edit?usp=sharing" title="Le projet original" target="_blank" >  Notre Google Slides </a> </p>
-          <p> <img alt="Poutine à Cheval" title ="Poutine à Cheval" src="img/Poutine cheval à bascule.png" class="Poutine" > </p>
+          </div>
 
       </section>
 
     </div>
 
 
-      <!-- Tuile du CV -->
-      <div id="TuileZoneCV" class="ligne2 col1"> 
-
-        <!-- Zone CV -->
-        <section id = "ZoneCV" class="zonecv">
-
-          <h2> Curriculum Vitae </h2>
-          <img alt="CV Guillaume BULLET" title ="CV de Guillaume BULLET" src="img/CV Octobre 2019.png" class="CV " >
-
-        </section>
-
-      </div>
-
-  </div>
-
-
-
     <!-- Zone RÉSEAUX SOCIAUX -->
     <section id="ReseauxSociaux" class="reseauxsociaux">
       
-      <h2> Réseaux Sociaux </h2>
+      <h3> Réseaux Sociaux </h3>
 
       <!-- base de la grille des Réseaux Sociaux -->
       <div id="GrilleDesReseauxSociaux">
 
             <!-- tuile de Facebook -->
             <div id="TuileFacebook" class="ligne1 col1"> 
-            <a href="https://www.facebook.com" title="Facebook" target="_blank" > <img alt= "Facebook" title= "Facebook" src= "img/logo facebook 512x512.png" class="Facebook"> </a>
-            </div>
-
-            <!-- tuile de Twitter -->
-            <div id="TuileTwitter" class="ligne1 col2"> 
-            <a href="https://twitter.com/?lang=fr" title="Twitter" target="_blank" > <img alt= "Twitter" title= "Twitter" src= "img/logo twitter 640x640.png" class="Twitter"> </a>
-            </div>
-
-            <!-- tuile d'Instagram -->
-            <div id="TuileInstagram" class="ligne1 col3"> 
-            <a href="https://www.instagram.com/?hl=fr" title="Instagram" target="_blank" > <img alt= "Instagram" title= "Instagram" src= "img/logo instagram 512x512.png" class="Instagram"> </a>
+            <a href="https://www.facebook.com" title="Facebook" target="_blank" > <img alt= "Facebook" title= "Facebook" src= "img/facebook.png" id="Facebook"> </a>
             </div>
 
             <!-- tuile de Linkedin -->
             <div id="TuileLinkedin" class="ligne1 col4"> 
-            <a href="https://www.linkedin.com" title="Linkedin" target="_blank" > <img alt= "Linkedin" title= "Linkedin" src= "img/logo linkedin 512x512.png" class="Linkedin"> </a>
+            <a href="https://www.linkedin.com/in/guillaume-bullet-155876140/" title="Linkedin" target="_blank" > <img alt= "Linkedin" title= "Linkedin" src= "img/linkedin.png" id="Linkedin"> </a>
             </div>
 
       </div>
 
     </section>
 
-    <!-- Espacement à ne pas oublier de modifier héhé -->
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          
+    <!-- Bas de page -->
+    <footer>
 
-      <!-- Bas de page -->
-      <footer>
+        <!-- Copyright --> 
 
-        <!-- Copyright -->
-        <section> 
-
-          <p> © <strong> Guillaume BULLET </strong> </p>
-          <p> Ce site et l'ensemble des ressources associées, sont publiés et mis en place dans le cadre de ma présentation professionnelle. </p>
-
-        </section>
-
+     <div id="BasDePage">
+        <h5> © <span id="Guillaume"> Guillaume </span> <span id="BULLET"> BULLET </span> </h5>
+        <p> Ce site et l'ensemble des ressources associées, sont publiés et mis en place dans le cadre de ma présentation professionnelle. </p>
+        </div>
         <!-- Crédits et citations -->
         <section>
 
-          <p> <strong> Crédits : </strong> </p>
-          <ul> 
-          <li> image du favicon : https://icones8.fr/icon/11239/code-source </li>
-          <li> création du favicon : http://favicons.fr/ </li>
-          <li> bannière : https://unsplash.com/s/photos/code-source </li>
-          </ul> 
+      <a href= credits.html title="Page des crédits" target="_blank" ><h4> Crédits </h4> </a>
 
         </section>
 
-      </footer>
+     </footer>
 
-      </div>
+    </div>
 
      </body>
 
