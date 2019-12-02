@@ -9,10 +9,6 @@
               grid-column-gap: 2px;
               grid-row-gap: 1px;
          }
-         /* bannière */
-         #BannerGrid {
-             grid-column: 1 / -1; 
-         }
          /* Case de la photo d'ID */
          #ZonePhotoID{
               grid-column: 1;
@@ -34,18 +30,155 @@
        
     #GrilleDuSommaire{
         display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
           grid-auto-rows: repeat(auto-fit, minmax(50px, 1fr));
+          grid-column-gap: 2px;
+          grid-row-gap: 2px;
+          grid-auto-rows: dense;
+        }
+
+
+      #GrilleDesReseauxSociaux{
+        display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+          grid-auto-rows: auto, auto;
           grid-column-gap: 2px;
           grid-row-gap: 2px;
           grid-auto-rows: dense;
        }
 
-      #GrilleDesReseauxSociaux{
-        display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-          grid-auto-rows: auto, auto;
-          grid-column-gap: 2px;
-          grid-row-gap: 2px;
-          grid-auto-rows: dense;
+       @media screen and (max-width: 799px) {
+        #GrilleDuSommaire{
+            display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+              grid-auto-rows: repeat(auto-fit, minmax(50px, 1fr));
+              grid-column-gap: 2px;
+              grid-row-gap: 2px;
+              grid-auto-rows: dense;
+            }
+       }
+
+       @media screen and (max-width: 375px) {
+        #GrilleDuSommaire{
+            display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              grid-auto-rows: repeat(auto-fit, minmax(50px, 1fr));
+              grid-column-gap: 2px;
+              grid-row-gap: 2px;
+              grid-auto-rows: dense;
+            }
+       }
+
+       @media screen and (max-width: 800px) {
+        #GrilleHautDePage{
+            display: grid;
+              /* configuration de la grille en 3 colonnes */
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-auto-rows: auto, auto, auto; 
+              grid-column-gap: 2px;
+              grid-row-gap: 1px;
+         }
+         /* Case de la photo d'ID */
+         #ZonePhotoID{
+              grid-column: 2;
+              grid-row: 1; 
+         }
+         /* Case dU Prénom&Nom */
+         #PetN {
+              grid-column: 2;
+              grid-row: 2;
+         }
+         /* Case du Slogan */
+         #Slogan {
+            grid-column: 2;
+            grid-row: 3;
+         }
+         #cdvRecto {
+            width: 70%;
+        }
+        #cdvVerso {
+            width: 70%;
+        }
+        #CDVrecto {
+            font-size: 20px;
+            color: rgb(86, 76, 42);
+        }
+        #CDVverso {
+            font-size: 20px;
+            color: rgb(86, 76, 42);
+        }
+        #PoutineCheval {
+            font-size: 20px;
+            color: rgb(86, 76, 42);
+        }
+        .Poutine {
+            width: 50%;
+            height: auto;
+        }
+        h3 { 
+            background-color: rgb(166, 157, 103);
+            color: rgb(86, 76, 42);
+            font-size: 30px;
+            text-align: center;
+        }
+        p {
+            font-size: 25px;
+        }
+       }
+
+       @media screen and (max-width: 460px) {
+        #GrilleHautDePage{
+                display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                  grid-auto-rows: repeat(auto-fit, minmax(50px, 1fr));
+                  grid-column-gap: 2px;
+                  grid-row-gap: 2px;
+                  grid-auto-rows: dense;
+                }
+
+                h2 { 
+                    background-color: rgb(166, 157, 103);
+                    color: rgb(86, 76, 42);
+                    font-size: 30px;
+                    font-variant: small-caps;
+                    text-align: center;
+                }
+                p {
+                    font-size: 20px;
+                }
+                .Guillaume {
+                    font-size: 50px;
+                }
+                .BULLET {
+                    font-size: 50px;
+                }
+                h3 { 
+                    background-color: rgb(166, 157, 103);
+                    color: rgb(86, 76, 42);
+                    font-size: 30px;
+                    text-align: center;
+                }
+                #cdvRecto {
+                    width: 70%;
+                }
+                #cdvVerso {
+                    width: 70%;
+                }
+                #CDVrecto {
+                    font-size: 20px;
+                    color: rgb(86, 76, 42);
+                }
+                #CDVverso {
+                    font-size: 20px;
+                    color: rgb(86, 76, 42);
+                }
+                #PoutineCheval {
+                    font-size: 20px;
+                    color: rgb(86, 76, 42);
+                }
+                .Poutine {
+                    width: 50%;
+                    height: auto;
+                }
+               
        }
